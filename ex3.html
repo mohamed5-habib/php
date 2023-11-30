@@ -1,0 +1,25 @@
+<head>
+    <title>Exercice 3 - Calculatrice</title>
+  </head>
+  <body>
+    <h1>Calculatrice</h1>
+    <form action="ex3.php" method="post">
+      <label for="nombre1">Nombre 1 :</label>
+      <input type="number" name="nombre1" id="nombre1" required><br>
+  
+      <label for="operation">Opération :</label>
+      <select name="operation" id="operation" required>
+        <option value="">Sélectionnez une opération</option>
+        <option value="addition">Addition</option>
+        <option value="soustraction">Soustraction</option>
+        <option value="multiplication">Multiplication</option>
+        <option value="division">Division</option>
+      </select><br>
+  
+      <label for="nombre2">Nombre 2 :</label>
+      <input type="number" name="nombre2" id="nombre2" required><br>
+  
+      <input type="submit" value="Calculer">
+    </form>
+  </body>
+  </html>
